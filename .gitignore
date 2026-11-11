@@ -1,0 +1,30 @@
+# ===================== 编译产物（本地产物，不要上传） =====================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+*.o
+*.obj
+*.so
+*.a
+
+# ===================== 可执行文件 =====================
+vision_app
+pnp_app
+rm_pnp
+rm_pnp_mouse_app
+serial_app
+
+# ===================== 大体积素材（本地保留，不上传） =====================
+*.mp4
+*.avi
+*.mov
+yolov8n.onnx
+
+# ===================== 编辑器 / 系统文件 =====================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
